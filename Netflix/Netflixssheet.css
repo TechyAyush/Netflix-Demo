@@ -1,0 +1,290 @@
+*{
+    margin: 0px 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+
+.outer{
+    
+        background-image:url(./photos/netflixo.jpg); 
+        
+        
+}
+
+.details{
+    
+    
+    
+    text-align: center;
+}   
+
+.details h1{
+    color: rgb(240, 0, 0);
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: left;
+}
+.details h2{
+    font-size: 72px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align:center;
+    margin-top: 200px;
+
+}
+.details h3{
+    font-size: 32px;
+    font-family: 'Arial Narrow';
+    color: white;
+    text-align: center;
+
+
+}
+
+.details button{
+    margin-right: 22px;
+    margin-top: 0px;
+    text-align: right;
+    border: rgb(240, 0, 0);
+    color: white;
+    background: rgb(240, 0, 0);
+    padding: 10px 20px;
+    font-size: 22px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    
+ }
+.details button:hover{
+    background-color: rgb(251, 64, 64);
+}
+.details button a{
+    text-decoration: none;
+    color: white;
+}
+.details button2 {
+    
+    
+    text-align: left;
+    border: rgb(240, 00,00);
+    color: white;
+    background: rgb(240, 00, 00);
+    padding: 22px 34px;
+    font-size: 34px;
+    margin-bottom: 60px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.details button2:hover{
+    background-color: rgb(255, 45, 45);
+}
+hr{
+
+    height: 10px;
+    border: rgb(75, 75, 75);
+    color: rgb(75, 75, 75);
+    background-color: rgb(75, 75, 75);
+}
+.box{
+    width: 100%;
+    padding: 0;
+    display: flex;
+}
+.box .imgbx{
+    width: 640px;
+    flex:0 0 640px;
+}
+.box .imgbx img{
+    max-width:100%;
+    text-align: right;
+
+}
+.content h1{
+    padding:50px 50px ;
+    margin-left:0 ;
+    font-size: 68px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.content h2{
+    padding:50px;
+    padding-right: 150px;
+    margin: 0;
+    font-size: 34px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: left;
+    
+    line-height: 45px;
+
+
+}
+ button3{
+    color:white;
+    
+    border: 3px solid white;
+    background:black;
+    padding: 20px 30px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 45px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+button3:hover{
+    colour:white;
+    border: 3px solid black;
+    
+    box-shadow: 0 0px 20px 0 white,0 0px 20px 0 white;
+}
+
+.box2{
+    width: 100%;
+    display: flex;
+}
+.box2 .imgbx2{
+    width: 640px;
+    
+    flex:0 0 640px;
+}
+.box2 .imgbx2 img{
+    max-width: 100%;
+} 
+.content2 h1{
+    padding:50px 50px ;
+    margin-left:0 ;
+    
+    margin-left:45px ;
+    font-size: 68px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.content2 h2{
+    padding:50px;
+    padding-right: 150px;
+    margin: 0;
+    font-size: 34px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: left;
+    
+    line-height: 45px;
+}
+.box3{
+    width: 100%;
+    display: flex;
+}
+.box3 .imgbx3{
+    width: 640px;
+    flex: 0 0 640px;
+}
+.box3 .imgbx3 img{
+  max-width: 100%;  
+}
+.content3 h1{
+    padding:50px 50px ;
+    margin-left:0 ;
+    font-size: 68px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.content3 h2{
+    padding:50px;
+    padding-right: 150px;
+    margin: 0;
+    font-size: 34px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: left;
+    
+    line-height: 45px;
+
+
+}
+.faq h1{
+    padding: 75px;
+    font-size: 66px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.dropdown{
+    text-align: center;
+    position: relative;
+
+}
+button4{
+    background-color: rgb(46, 46, 46);
+    width: 600px;
+    padding: 30px;
+    padding-right: 450px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: left;
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    
+    display: inline-block;
+}
+.dropdown button2 {
+    
+    
+    text-align: left;
+    border: rgb(240, 00,00);
+    color: white;
+    background: rgb(240, 00, 00);
+    padding: 22px 34px;
+    font-size: 34px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    display: inline-block;
+
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.dropdown button2:hover{
+    box-shadow: 0 0px 20px 0 rgb(255, 95, 95),0 0px 20px 0 rgb(255, 95, 95);
+    display: inline-block;
+    text-decoration: none;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-content{
+    display: none;
+   
+    
+
+}
+.dropdown-content p{
+    color: white;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+
+}
+.ending p{
+    color: darkgrey;
+    font-size: 24px;
+    text-align:left;
+    margin: 60px;
+    margin-left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+ 
